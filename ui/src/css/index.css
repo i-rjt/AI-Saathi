@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Flow+Circular&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pirata+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+	--bg: #FFF7F0;
+	--head-foot-bg: #FF6B00;
+	--body-text: #4E4E4E;
+	--heading-text: #333333;
+	--font: "Andika","Roboto Condensed", sans-serif;
+	--border-purple: #7A75AF;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: var();
+	font-family: var(--font);
+	font-optical-sizing: auto;
+	overflow: hidden;
+}
+
+
+
+header{
+	height: 10vh;
+	width: 100vw;
+	border-radius: 0px 0px 2px 2px;
+	border-bottom: 1px solid transparent;
+	background-color: var(--head-foot-bg);
+	overflow: none;
+	text-align: center;
+	color: white;
+	box-shadow: 1px 5px 2px silver, 20px 10px 2px white, 20px 10px 4px transparent;
+}
+
+
+main{
+	height: 90vh;
+	width: 100vw;
+	overflow: none;
+/*	position: ;*/
+	
+	
+}
+
+p{
+	color: black;
+}
+
+
+@media screen and (min-width: 769px){
+	header{												/* Apply the darkmode class with header*/
+/*		background-color: var(--head-foot-bg);*/
+
+	}
+}
+
+
+@media screen and (max-width: 768px){				/* Tablet design */
+		h1{
+			font-size: 2em;
+			color: white;
+			text-align: center;
+		}
+}
+
+
+
+
